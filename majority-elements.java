@@ -1,0 +1,11 @@
+//https://leetcode.com/problems/majority-element/description/
+
+class Solution {
+    public int majorityElement(int[] nums) {
+      
+       Arrays.sort(nums);
+       int n=nums.length;
+       return nums[n/2];
+   
+    }
+}
